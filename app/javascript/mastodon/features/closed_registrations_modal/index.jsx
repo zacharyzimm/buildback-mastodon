@@ -42,7 +42,7 @@ class ClosedRegistrationsModal extends ImmutablePureComponent {
     return (
       <div className='modal-root__modal interaction-modal'>
         <div className='interaction-modal__lead'>
-          <h3><FormattedMessage id='closed_registrations_modal.title' defaultMessage='Signing up on Mastodon' /></h3>
+          <h3><FormattedMessage id='closed_registrations_modal.title' defaultMessage='Signing up on Buildback' /></h3>
           <p>
             <FormattedMessage
               id='closed_registrations_modal.preamble'
