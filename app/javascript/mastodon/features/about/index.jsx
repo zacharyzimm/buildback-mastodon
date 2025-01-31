@@ -159,13 +159,13 @@ class About extends PureComponent {
                 dangerouslySetInnerHTML={{ __html: extendedDescription.get('content') }}
               />
             ) : (
-              <p><FormattedMessage id='about.not_available' defaultMessage='This information has not been made available on this server.' /></p>
+              <p><FormattedMessage id='about.about' defaultMessage='This information has not been made available on this server.' /></p>
             ))}
           </Section>
 
           <Section title={intl.formatMessage(messages.rules)}>
             {!isLoading && (server.get('rules', ImmutableList()).isEmpty() ? (
-              <p><FormattedMessage id='about.not_available' defaultMessage='This information has not been made available on this server.' /></p>
+              <p><FormattedMessage id='about.community_rules' defaultMessage='This information has not been made available on this server.' /></p>
             ) : (
               <ol className='rules-list'>
                 {server.get('rules').map(rule => (

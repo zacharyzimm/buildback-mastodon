@@ -10,7 +10,7 @@
   "about.domain_blocks.suspended.title": "Suspended",
   "about.not_available": "This information has not been made available on this server.",
   "about.powered_by": "Community forum powered by {mastodon}",
-  "about.rules": "Server rules",
+  "about.rules": "Community rules",
   "account.account_note_header": "Personal note",
   "account.add_or_remove_from_list": "Add or Remove from lists",
   "account.badges.bot": "Automated",
