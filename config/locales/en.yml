@@ -1196,7 +1196,7 @@ en:
       title: Login to %{domain}
     sign_up:
       manual_review: Sign-ups on %{domain} go through manual review by our moderators. To help us process your registration, write a bit about yourself and why you want an account on %{domain}.
-      preamble: With an account on this server, you'll be able to follow other people affected in disaster zones.
+      preamble: With an account on this server, you'll be able to connect with fellow homeowners affected by the recent fires.
       title: Let's get you set up on %{domain}.
     status:
       account_status: Account status

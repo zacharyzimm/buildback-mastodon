@@ -42,7 +42,7 @@ class ServerBanner extends PureComponent {
     return (
       <div className='server-banner'>
         <div className='server-banner__introduction'>
-          <FormattedMessage id='server_banner.is_one_of_many' defaultMessage='{domain} is a privately hosted Mastodon server to keep you connected with the Buildback community' values={{ domain: <strong>{domain}</strong>, mastodon: <a href='https://joinmastodon.org' target='_blank' rel='noopener'>Mastodon</a> }} />
+          <FormattedMessage id='server_banner.is_one_of_many' defaultMessage='{domain} is a place for homeowners to connect, share resources, and support each other in navigating the challenges of rebuilding after the LA wildfires. Join us to exchange advice, find reliable information, and be part of a community working towards recovery.' values={{ domain: <strong>{domain}</strong>, mastodon: <a href='https://joinmastodon.org' target='_blank' rel='noopener'>Mastodon</a> }} />
         </div>
 
         <Link to='/about'>
